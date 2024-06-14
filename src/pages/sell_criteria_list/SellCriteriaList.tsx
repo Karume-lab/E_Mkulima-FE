@@ -31,13 +31,19 @@ const sellCriteriaLinks: SellCriteriaLink[] = [
 ]
 const SellCriteriaList = () => {
     return (
-        <div>
-            {sellCriteriaLinks.map(({ text, link, }, index: number) => {
+        <div className="max-w-md mx-auto">
+            {sellCriteriaLinks.map(({ text, link }, index: number) => {
                 return (
-                    <DivLink route={link} text={text} styling='' key={index} />
-                )
+                    <DivLink
+                        route={link}
+                        text={text}
+                        styling="p-3 text-lg bg-white m-2 rounded transition-transform duration-300 hover:scale-105 hover:shadow-lg"
+                        key={index}
+                    />
+                );
             })}
         </div>
+
     );
 };
 
