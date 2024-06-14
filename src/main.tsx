@@ -31,11 +31,11 @@ const router = createBrowserRouter([
 				element: <ProduceList />,
 			},
 			{
-				path: "/dashboard/produce/buy/id",
+				path: "/dashboard/produce/buy/:id",
 				element: <ProduceDetail />,
 			},
 			{
-				path: "/dashboard/produce/buy/id/message",
+				path: "/dashboard/produce/buy/:id/message",
 				element: <Message />,
 			},
 			{
@@ -55,16 +55,8 @@ const router = createBrowserRouter([
 				element: <CategoryList />,
 			},
 			{
-				path: "/dashboard/produce/sell/categories/produce_detail",
+				path: "/dashboard/produce/sell/categories/:id",
 				element: <ProduceDetail />,
-			},
-			{
-				path: "/dashboard/produce/sell",
-				element: <SellCriteriaList />,
-			},
-			{
-				path: "/dashboard/produce/sell",
-				element: <SellCriteriaList />,
 			},
 		],
 	},
