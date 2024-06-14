@@ -1,4 +1,4 @@
-const locations = [
+const locations:string[] = [
     "Kapletundo",
     "Kamungei",
     "Ririk",
