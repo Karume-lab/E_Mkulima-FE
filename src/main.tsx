@@ -35,11 +35,7 @@ const router = createBrowserRouter([
 				element: <ProduceDetail />,
 			},
 			{
-				path: "/dashboard/produce/buy/id/call",
-				element: <Message />,
-			},
-			{
-				path: "/dashboard/produce/buy/id/chat",
+				path: "/dashboard/produce/buy/id/message",
 				element: <Message />,
 			},
 			{
