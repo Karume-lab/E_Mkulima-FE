@@ -3,10 +3,12 @@ import { ProduceCardProps } from '../interfaces/interfaces'; // Adjust the impor
 
 const ProduceCard: React.FC<ProduceCardProps> = ({ text, imagePath }) => {
     return (
-            <div className=''>
+        <div className='flex bg-white p-1 h-28 justify-between items-center pl-4'>
+            <p className='text-lg '>
                 {text}
-                <img src={imagePath} alt={text} />
-            </div>
+            </p>
+            <img src={imagePath} alt={`image of ${text}`} className='h-full w-40' />
+        </div>
     );
 };
 
