@@ -2,7 +2,6 @@
 export interface FormFieldProps {
     label: string;
     placeholder: string;
-    field: string;
     required: boolean;
 }
 
