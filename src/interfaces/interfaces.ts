@@ -18,6 +18,7 @@ export interface ProduceCardProps {
 
 export interface ButtonProps {
     text: string;
+    styling: string;
 }
 
 export interface ProduceDetailCardProps {
