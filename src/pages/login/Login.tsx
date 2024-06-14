@@ -15,7 +15,7 @@ const Login = () => {
                     <label htmlFor="Remember me">Remember me</label>
                 </div>
                 <DivLink text={"Forgot Password"} route={""} styling={""} />
-                <Button text="Login" />
+                <Button text="Login" styling={""} />
             </form>
         </>
     );
