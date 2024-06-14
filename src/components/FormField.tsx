@@ -2,7 +2,7 @@
 import React from 'react';
 import { FormFieldProps } from '../interfaces/interfaces'; // Adjust the import path as necessary
 
-const FormField: React.FC<FormFieldProps> = ({ label, placeholder, required }) => {
+const FormField: React.FC<FormFieldProps> = ({ label, placeholder, required, styling }) => {
     return (
         <div className="flex flex-col">
             <label htmlFor={label}>
@@ -14,7 +14,7 @@ const FormField: React.FC<FormFieldProps> = ({ label, placeholder, required }) =
                 id={label}
                 placeholder={placeholder}
                 required={required}
-                className=""
+                className={`${styling}`}
             />
         </div>
     );
