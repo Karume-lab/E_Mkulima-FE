@@ -16,6 +16,7 @@ const Header = () => {
             </div>
             <div className='hidden md:flex md:justify-between items-center p-2'>
                 <img src={logo} alt="app logo" className='w-40 ' />
+                <p className=' text-white font-semibold text-lg'>Direct from farm to table. Shop fresh, shop local and support farmers with every purchase </p>
                 <div className='flex gap-5'>
                     <Button text='LOGIN' styling='bg-white p-3' />
                     <Button text='REGISTER' styling='bg-white p-3' />
