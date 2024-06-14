@@ -1,6 +1,6 @@
 import headerImage from '../../public/header.jpg'
 import logo from '../../public/logo.png'
-import Button from './Button'
+import DivLink from './DivLink'
 
 const Header = () => {
     return (
@@ -17,8 +17,8 @@ const Header = () => {
             <div className='hidden md:flex md:justify-between items-center p-2'>
                 <img src={logo} alt="app logo" className='w-40 ' />
                 <div className='flex gap-5'>
-                    <Button text='LOGIN' styling='bg-white p-3' />
-                    <Button text='REGISTER' styling='bg-white p-3' />
+                    <DivLink text={'Login'} route={'/auth/login'} styling={'bg-white p-3'} />
+                    <DivLink text={'Sign Up'} route={'/auth/sign_up'} styling={'bg-white p-3'} />
                 </div>
             </div>
         </div>
