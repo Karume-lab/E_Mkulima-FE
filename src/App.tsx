@@ -1,5 +1,5 @@
 import './App.css'
-import landingPage from '../public/landing_page.jpg';
+import landingPage from '/landing_page.jpg';
 import DivLink from './components/DivLink';
 
 

@@ -1,8 +1,8 @@
-import Cabbage from "./../../public/cabbage.jpg";
-import Bananas from "./../../public/bananas.jpg";
-import Chilly from "./../../public/chilly.jpg";
-import Eggs from "./../../public/eggs_crate.jpg";
-import Pumpkin from "./../../public/pumpkin.jpg";
+import Cabbage from "/cabbage.jpg";
+import Bananas from "/bananas.jpg";
+import Chilly from "/chilly.jpg";
+import Eggs from "/eggs_crate.jpg";
+import Pumpkin from "/pumpkin.jpg";
 
 interface Produce {
     id: number,

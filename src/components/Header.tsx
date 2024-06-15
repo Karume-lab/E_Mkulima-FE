@@ -1,5 +1,5 @@
-import headerImage from '../../public/header.jpg'
-import logo from '../../public/logo.png'
+import headerImage from '/header.jpg'
+import logo from '/logo.png'
 import DivLink from './DivLink'
 
 const Header = () => {

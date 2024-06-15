@@ -3,7 +3,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout.tsx";
-import { CategoryList, Dashboard, LocationList, Login, Message, ProduceDetail, ProduceList, SellCriteriaList, SignUp } from "./pages";
+import { CategoryList, Dashboard, LocationList, Login, ContactList, ProduceDetail, ProduceList, SellCriteriaList, SignUp } from "./pages";
 
 const router = createBrowserRouter([
 	{
@@ -35,8 +35,8 @@ const router = createBrowserRouter([
 				element: <ProduceDetail />,
 			},
 			{
-				path: "/dashboard/produce/buy/:id/message",
-				element: <Message />,
+				path: "/dashboard/produce/buy/:id/contacts",
+				element: <ContactList />,
 			},
 			{
 				path: "/dashboard/produce/buy/locations",
