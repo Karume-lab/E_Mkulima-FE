@@ -1,6 +1,5 @@
 import FormField from "../../components/FormField";
 import DivLink from '../../components/DivLink';
-import Button from "../../components/Button";
 
 const Login = () => {
     return (
@@ -16,7 +15,7 @@ const Login = () => {
                         <label htmlFor="rememberMe">Remember me</label>
                     </div>
                     <DivLink text={"Forgot Password"} route={""} styling="text-lime-500 hover:underline mb-4" />
-                    <Button text="Login" styling="bg-lime-500 text-white w-full py-2 rounded hover:scale-105 hover:drop-shadow-lg transition" />
+                    <DivLink text={"Login"} route={"/dashboard"} styling={"text-center bg-lime-500 text-white w-full py-2 rounded hover:scale-105 hover:drop-shadow-lg transition"} />
                     <DivLink text={"Don't have an account? Sign up for one here."} route={"/auth/sign_up"} styling={"text-center bg-lime-500 text-white w-full py-2 rounded hover:scale-105 hover:drop-shadow-lg transition"} />
                 </form>
             </div>
