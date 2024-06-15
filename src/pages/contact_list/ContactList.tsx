@@ -1,5 +1,6 @@
 import React from 'react';
 import { contacts } from '../../MOCK_DATA';
+import Done from '../../components/Done';
 
 
 const ContactList: React.FC = () => {
@@ -47,6 +48,7 @@ const ContactList: React.FC = () => {
                     </ul>
                 </div>
             </div>
+            <Done />
         </>
     );
 }
