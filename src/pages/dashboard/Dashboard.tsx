@@ -16,7 +16,7 @@ const dashBoardLinks: dashBoardLink[] = [
     },
     {
         text: "Messages",
-        link: "/dashboard/produce/buy/id/message"
+        link: "/dashboard/produce/buy/1/contacts"
     }
 ]
 const Dashboard = () => {
