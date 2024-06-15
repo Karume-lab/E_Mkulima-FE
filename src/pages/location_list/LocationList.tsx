@@ -3,7 +3,7 @@ import { locations } from "../../MOCK_DATA";
 
 const LocationList = () => {
     return (
-        <ul className="flex flex-col gap-2">
+        <ul className="flex flex-col max-w-xl mx-auto gap-2">
             {locations.map((location: string, index: number) => (
                 <li key={index} className="m-2">
                     <DivLink
