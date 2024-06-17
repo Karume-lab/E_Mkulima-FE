@@ -1,4 +1,5 @@
-import DivLink from '../../components/DivLink';
+import React from 'react';
+import { DivLink } from '../../components';
 
 
 interface SellCriteriaLink {
@@ -29,7 +30,7 @@ const sellCriteriaLinks: SellCriteriaLink[] = [
         link: "/dashboard/produce/buy/id/message"
     }
 ]
-const SellCriteriaList = () => {
+const SellCriteriaList: React.FC = () => {
     return (
         <div className="max-w-md mx-auto">
             {sellCriteriaLinks.map(({ text, link }, index: number) => {

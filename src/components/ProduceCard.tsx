@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProduceCardProps } from '../interfaces/interfaces'; // Adjust the import path as necessary
+import { ProduceCardProps } from '../interfaces/interfaces';
 
 const ProduceCard: React.FC<ProduceCardProps> = ({ text, imagePath }) => {
     return (

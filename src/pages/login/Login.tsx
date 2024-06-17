@@ -1,7 +1,8 @@
-import FormField from "../../components/FormField";
-import DivLink from '../../components/DivLink';
+import React from "react";
+import { FormField } from "../../components";
+import { DivLink } from '../../components';
 
-const Login = () => {
+const Login: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-lime-100">
             <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-md transit">

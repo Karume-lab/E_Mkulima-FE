@@ -3,12 +3,7 @@ import Bananas from "/bananas.jpg";
 import Chilly from "/chilly.jpg";
 import Eggs from "/eggs_crate.jpg";
 import Pumpkin from "/pumpkin.jpg";
-
-interface Produce {
-    id: number,
-    name: string;
-    image: string;
-}
+import { Produce } from "../interfaces/interfaces";
 
 const produce: Produce[] = [
     {

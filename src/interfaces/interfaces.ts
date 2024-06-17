@@ -1,4 +1,9 @@
-// interfaces.ts
+export interface Produce {
+    id: number,
+    name: string;
+    image: string;
+}
+
 export interface FormFieldProps {
     label: string;
     placeholder: string;
@@ -25,4 +30,11 @@ export interface ButtonProps {
 export interface ProduceDetailCardProps {
     text: string;
     imagePath: string;
+}
+
+
+export interface ProduceListProps {
+    produce: Produce[];
+    onUpdateProduct?: (updatedProduct: Produce) => void;
+    onDeleteProduct?: (id: number) => void;
 }

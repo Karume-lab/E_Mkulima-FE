@@ -1,8 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import produce from "../../MOCK_DATA/produce";
-import DivLink from "../../components/DivLink";
-import Done from "../../components/Done";
+import { DivLink, Done } from "../../components";
 
 const ProduceDetail: React.FC = () => {
     const { id } = useParams<{ id: string }>();

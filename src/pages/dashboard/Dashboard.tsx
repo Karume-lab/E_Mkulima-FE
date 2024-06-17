@@ -1,5 +1,5 @@
-import DivLink from '../../components/DivLink';
-
+import React from "react";
+import { DivLink } from "../../components";
 
 interface dashBoardLink {
     text: string;
@@ -19,7 +19,7 @@ const dashBoardLinks: dashBoardLink[] = [
         link: "/dashboard/produce/buy/1/contacts"
     }
 ]
-const Dashboard = () => {
+const Dashboard: React.FC = () => {
     return (
         <div className='flex flex-col gap-16 bg-lime-100 h-full items-center  p-5'>
             <img src="" alt="" className='' />

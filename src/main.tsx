@@ -3,7 +3,8 @@ import App from "./App.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout.tsx";
-import { CategoryList, Dashboard, LocationList, Login, ContactList, ProduceDetail, ProduceList, SellCriteriaList, SignUp } from "./pages";
+import { CategoryList, Dashboard, LocationList, Login, ContactList, ProduceDetail, ProduceList, SellCriteriaList, SignUp, Admin } from "./pages";
+import { produce } from "./MOCK_DATA";
 
 const router = createBrowserRouter([
 	{
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
 			{
 				path: "/",
 				element: <App />,
+			},
+			{
+				path: "/admin",
+				element: <Admin />,
 			},
 			{
 				path: "/auth/sign_up",
@@ -28,7 +33,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: "/dashboard/produce/buy",
-				element: <ProduceList />,
+				element: <ProduceList produce={produce} isAdminPanel={false} />,
 			},
 			{
 				path: "/dashboard/produce/buy/:id",

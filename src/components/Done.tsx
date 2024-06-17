@@ -1,6 +1,7 @@
+import React from "react";
 import DivLink from "./DivLink";
 
-const Done = () => {
+const Done:React.FC = () => {
     return (
         <DivLink
             text={"Done"}

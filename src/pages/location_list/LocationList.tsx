@@ -1,8 +1,8 @@
-import DivLink from "../../components/DivLink";
-import Done from "../../components/Done";
+import React from "react";
+import { DivLink, Done } from "../../components";
 import { locations } from "../../MOCK_DATA";
 
-const LocationList = () => {
+const LocationList: React.FC = () => {
     return (
         <>
             <ul className="flex flex-col max-w-xl mx-auto gap-2">

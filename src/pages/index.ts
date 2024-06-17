@@ -7,3 +7,4 @@ export { default as ProduceDetail } from "./produce_detail/ProduceDetail";
 export { default as ProduceList } from "./produce_list/ProduceList";
 export { default as SellCriteriaList } from "./sell_criteria_list/SellCriteriaList";
 export { default as SignUp } from "./sign_up/SignUp";
+export { default as Admin } from "./admin/Admin";

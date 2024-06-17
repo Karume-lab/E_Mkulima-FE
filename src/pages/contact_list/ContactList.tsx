@@ -1,6 +1,6 @@
 import React from 'react';
 import { contacts } from '../../MOCK_DATA';
-import Done from '../../components/Done';
+import { Done } from '../../components';
 
 
 const ContactList: React.FC = () => {
